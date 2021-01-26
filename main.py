@@ -1,11 +1,4 @@
 # Hangman game
-#
-
-# -----------------------------------
-# Helper code
-# You don't need to understand this helper code,
-# but you will have to know how to use the functions
-# (so be sure to read the docstrings!)
 
 import random
 
@@ -130,8 +123,6 @@ def hangman(secretWord):
     * After each round, you should also display to the user the
       partially guessed word so far, as well as letters that the
       user has not yet guessed.
-
-    Follows the other limitations detailed in the problem write-up.
     '''
     username = input("Please input your name: ")
     print("\nHi " + username + ". Welcome to the game, Hangman!")
